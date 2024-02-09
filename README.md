@@ -28,9 +28,46 @@ Este repositorio contiene una implementación del algoritmo de Búsqueda en Ampl
 | ------------- | ------------- |
 | <img width="100%" src="https://github.com/SantiagoAnzola1/SudokuResolver/assets/134959710/caa966cc-d9d3-4e60-99d9-77d7179c41d0" /> | <img  width="100%" src="https://github.com/SantiagoAnzola1/SudokuResolver/assets/134959710/0b920094-d961-4217-8b5d-893de094c3cd" />  |
 
-## :game_die: Juegalo:
+## 💻 ¿Cómo funciona?
+  - <strong>Inserción de Números: </strong> Selecciona la selda y presiona teclas numéricas (1-9) para insertar números en las celdas.
+  - <strong>:arrow_left:: </strong> Usa la tecla de retroceso (Backspace) para borrar todos los números del tablero.
+  - <strong>Suprimir: </strong> Presiona la tecla Suprimir para eliminar el número de la celda seleccionada.
+  - <strong>P: </strong> Imprime en consola el Sudoku actual en la consola al presionar 'P' o 'p'.
+  - <strong>V: </strong> Verifica si el Sudoku actual es válido al presionar 'V' o 'v'.
+  - <strong>C: </strong> Carga un Sudoku predefinido desde el archivo 'sud1.txt' al presionar 'C' o 'c'.
+  - <strong>D: </strong> Intenta resolver el Sudoku actual utilizando la Búsqueda en Profundidad al presionar 'D' o 'd'. Muestra la solución, costo y profundidad en la consola.
+  - <strong>B: </strong> Intenta resolver el Sudoku actual utilizando la Búsqueda en Amplitud al presionar 'B' o 'b'. Muestra la solución, costo y profundidad en la consola.
+
+
+## :game_die: Pruébalo:
+  1.  Clona el repositorio en tu máquina local.
+  2.  Abre el proyecto en tu entorno de desarrollo Java preferido.
+  3.  Ejecuta el método breadthFirstSearch en la clase SudokuSolver, pasando el puzzle de Sudoku inicial como entrada.
+  4.  El algoritmo explorará sistemáticamente el espacio de estados hasta encontrar una solución o agotar el espacio de búsqueda.
+  5.  El puzzle de Sudoku resuelto se imprimirá como una matriz de enteros 2D.
+
+
+## :clipboard: Requisitos:
+  - Instalar processing. [^1]
+  - Kit de Desarrollo de Java (JDK) instalado en tu sistema.
+
+## Archivos:
+  - **sudoku:** interfaz grafica del Sudoku.
+  - **IntArtificial:** Contiene la implementación principal del algoritmo BFS, DFS y validacion para resolver puzzles de Sudoku.
+  - **Nodo:** Define la clase Node, que representa estados del puzzle de Sudoku.
+  - **Estado:** Representa el estado del puzzle de Sudoku.
+  - **AccionSucesor:** Define la clase AccionSucesor, que representa acciones y estados sucesores.
+
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-line.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg">
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="">
+</picture>
 
 1. Descargar capeta "JUEGO"
    ![Screenshot 2023-07-31 142846](https://github.com/SantiagoAnzola1/Silletero-Runner/assets/134959710/73fc3a84-2159-4291-9ab0-dbb30141440f)
 2. Abrir el archivo ejecutable  
 ![Screenshot 2023-07-31 143534](https://github.com/SantiagoAnzola1/Silletero-Runner/assets/134959710/bd08afa1-2553-420d-b523-6f884e1ba380)
+
+[^1]:https://processing.org/download
