@@ -5,6 +5,13 @@
 </p>
 
 
+<p align="center">
+  | <a href=READMEEN.md>English</a> | 
+    <span>Español</span> |
+</p>
+<br>
+
+
 ## :hammer_and_wrench: Lenguajes y herramientas:
 <p align="center"> 
   <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>
