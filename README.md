@@ -68,3 +68,4 @@ Este repositorio contiene una implementación del algoritmo de Búsqueda en Ampl
   - **sud.txt / sud1.txt:** Contienen el estado inicial del sudoku.
 
 
+[^1]: https://processing.org/download
