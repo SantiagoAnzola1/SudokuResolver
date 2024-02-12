@@ -22,11 +22,11 @@ Este repositorio contiene una implementación del algoritmo de Búsqueda en Ampl
   - Utiliza una estructura de datos de cola para administrar la frontera de nodos durante la búsqueda.
   - Implementa una clase Nodo para representar estados del puzzle de Sudoku y seguir la ruta de la solución.
   - Proporciona funciones personalizables para generar estados sucesores y probar el estado objetivo.
-  - Recibe un archivo .txt como sudoku inicial.
+  - Recibe un archivo .txt como sudoku inicial, con 9 filas de valores entre 1 a 9 y las casillas vacias representadas con 0.
 
 | Forma Archivo .txt | Al cargar |
 | ------------- | ------------- |
-| <img width="100%" src="https://github.com/SantiagoAnzola1/SudokuResolver/assets/134959710/caa966cc-d9d3-4e60-99d9-77d7179c41d0" /> | <img  width="100%" src="https://github.com/SantiagoAnzola1/SudokuResolver/assets/134959710/0b920094-d961-4217-8b5d-893de094c3cd" />  |
+| <p align="center"><img width="50%" src="https://github.com/SantiagoAnzola1/SudokuResolver/assets/134959710/27f18dab-4733-460a-9fbf-f006eef7b495" /></p> | <p align="center"><img  width="50%" src="https://github.com/SantiagoAnzola1/SudokuResolver/assets/134959710/0b920094-d961-4217-8b5d-893de094c3cd" /></p>  |
 
 ## 💻 ¿Cómo funciona?
   - <strong>Inserción de Números: </strong> Selecciona la selda y presiona teclas numéricas (1-9) para insertar números en las celdas.
@@ -41,33 +41,23 @@ Este repositorio contiene una implementación del algoritmo de Búsqueda en Ampl
 
 ## :game_die: Pruébalo:
   1.  Clona el repositorio en tu máquina local.
-  2.  Abre el proyecto en tu entorno de desarrollo Java preferido.
-  3.  Ejecuta el método breadthFirstSearch en la clase SudokuSolver, pasando el puzzle de Sudoku inicial como entrada.
-  4.  El algoritmo explorará sistemáticamente el espacio de estados hasta encontrar una solución o agotar el espacio de búsqueda.
-  5.  El puzzle de Sudoku resuelto se imprimirá como una matriz de enteros 2D.
+  2.  Abre el proyecto en tu entorno de desarrollo Processing.
+  3.  Ejecuta la clase _sudoku.pde_, la cual contiene la interfaz gráfica del modelo.
+  4.  Llama los métodos de busqueda, posterior a cargar el puzzle de Sudoku inicial como entrada.
+  5.  El algoritmo explorará sistemáticamente el espacio de estados hasta encontrar una solución o agotar el espacio de búsqueda.
+  6.  El puzzle de Sudoku resuelto se imprimirá como una matriz de enteros 2D.
 
 
 ## :clipboard: Requisitos:
   - Instalar processing. [^1]
   - Kit de Desarrollo de Java (JDK) instalado en tu sistema.
 
-## Archivos:
-  - **sudoku:** interfaz grafica del Sudoku.
-  - **IntArtificial:** Contiene la implementación principal del algoritmo BFS, DFS y validacion para resolver puzzles de Sudoku.
-  - **Nodo:** Define la clase Node, que representa estados del puzzle de Sudoku.
-  - **Estado:** Representa el estado del puzzle de Sudoku.
-  - **AccionSucesor:** Define la clase AccionSucesor, que representa acciones y estados sucesores.
+## 📁 Archivos:
+  - **sudoku.pde:** interfaz grafica del Sudoku.
+  - **IntArtificial.pde:** Contiene la implementación principal del algoritmo BFS, DFS y validacion para resolver puzzles de Sudoku.
+  - **Nodo.pde:** Define la clase Node, que representa estados del puzzle de Sudoku.
+  - **Estado.pde:** Representa el estado del puzzle de Sudoku.
+  - **AccionSucesor.pde:** Define la clase AccionSucesor, que representa acciones y estados sucesores.
+  - **sud.txt / sud1.txt:** Contienen el estado inicial del sudoku.
 
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-line.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg">
-  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="">
-</picture>
-
-1. Descargar capeta "JUEGO"
-   ![Screenshot 2023-07-31 142846](https://github.com/SantiagoAnzola1/Silletero-Runner/assets/134959710/73fc3a84-2159-4291-9ab0-dbb30141440f)
-2. Abrir el archivo ejecutable  
-![Screenshot 2023-07-31 143534](https://github.com/SantiagoAnzola1/Silletero-Runner/assets/134959710/bd08afa1-2553-420d-b523-6f884e1ba380)
-
-[^1]:https://processing.org/download
