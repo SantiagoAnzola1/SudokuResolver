@@ -21,7 +21,9 @@
 
 ## :page_with_curl: Descripción:
 Este repositorio contiene una implementación del algoritmo de Búsqueda en Amplitud (BFS) y Búsqueda en Anchura (DFS) y para resolver puzzles de Sudoku. El código está escrito en Proccessing y Java y proporciona un enfoque directo para resolver puzzles de Sudoku.
-
+| Demo |
+| ------------- |
+| <p align="center"><img width="50%" src="https://github.com/SantiagoAnzola1/SudokuResolver/assets/134959710/ce1c66a1-d919-44a0-a5ac-934d9c0417dc" /></p>|
 ## Características:
   - Implementación del algoritmo de Búsqueda en Amplitud (BFS).
   - Implementación del algoritmo de Búsqueda en Profundidad (DFS).
