@@ -21,6 +21,9 @@
 
 ## :page_with_curl: Description:
 This repository contains an implementation of the Breadth-First Search (BFS) algorithm and Depth-First Search (DFS) algorithm to solve Sudoku puzzles. The code is written in Processing and Java and provides a straightforward approach to solving Sudoku puzzles.
+| Demo |
+| ------------- |
+| <p align="center">https://github.com/SantiagoAnzola1/SudokuResolver/assets/134959710/3fdd1154-6323-4a3b-a700-37384b27c75d</p>|
 
 ## Features:
   - Implementation of the Breadth-First Search (BFS) algorithm.
