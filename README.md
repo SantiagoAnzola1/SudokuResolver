@@ -12,6 +12,9 @@
 <br>
 
 
+
+
+
 ## :hammer_and_wrench: Lenguajes y herramientas:
 <p align="center"> 
   <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>
@@ -23,7 +26,7 @@
 Este repositorio contiene una implementación del algoritmo de Búsqueda en Amplitud (BFS) y Búsqueda en Anchura (DFS) y para resolver puzzles de Sudoku. El código está escrito en Proccessing y Java y proporciona un enfoque directo para resolver puzzles de Sudoku.
 | Demo |
 | ------------- |
-| <p align="center"><img width="50%" src="https://github.com/SantiagoAnzola1/SudokuResolver/assets/134959710/ce1c66a1-d919-44a0-a5ac-934d9c0417dc" /></p>|
+| <p align="center">https://github.com/SantiagoAnzola1/SudokuResolver/assets/134959710/3fdd1154-6323-4a3b-a700-37384b27c75d</p>|
 ## Características:
   - Implementación del algoritmo de Búsqueda en Amplitud (BFS).
   - Implementación del algoritmo de Búsqueda en Profundidad (DFS).
